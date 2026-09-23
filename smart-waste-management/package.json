@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite frontend --config frontend/vite.config.js --host 0.0.0.0",
-    "build": "cd frontend && vite build"
+    "build": "cd frontend && vite build --outDir ../dist"
   },
   "dependencies": {
     "lucide-react": "^1.47.0",
